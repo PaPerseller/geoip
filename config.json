@@ -31,6 +31,15 @@
         "outputName": "geoip-only-cn-private.dat",
         "wantedList": ["cn", "private"]
       }
+    },
+    {
+      "type": "v2rayGeoIPDat",
+      "action": "output",
+      "args": {
+        "outputDir": "./output",
+        "outputName": "cn.dat",
+        "wantedList": ["cn"]
+      }
     }
   ]
 }
